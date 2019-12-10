@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Brain</title>
+
+	<script src="//unpkg.com/brain.js"></script>
+
+	<style>
+		body {
+			background-color: #333;
+			color: aliceblue;
+		}
+
+		#canv {
+			position: absolute;
+			top: 0;right: 0;bottom: 0;left: 0;
+			margin: auto;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	
+	<canvas id="canv" style="display: block;">Ваш браузер устарел, обновитесь.</canvas>
+	<label for='symbol'>Какой символ?</label>
+	<input type="text" name="symbol" id="symbol">
+	<button id="addSymbol">Добавить</button><br><br><br><br>
+	<button id="recognition">Распознать</button><br><br><br><br>
+	<button id="clearBtn">Очистить</button>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
